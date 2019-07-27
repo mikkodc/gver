@@ -1,13 +1,14 @@
-import React, { Fragment } from "react";
-import cx from "classnames";
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
+import cx from 'classnames';
 
-import { connect } from "react-redux";
+import { connect } from 'react-redux';
 
-import ReactCSSTransitionGroup from "react-addons-css-transition-group";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
-import HeaderLogo from "../AppLogo";
+import HeaderLogo from '../AppLogo';
 
-import UserBox from "./Components/UserBox";
+import UserBox from './Components/UserBox';
 
 class Header extends React.Component {
   render() {
@@ -20,22 +21,20 @@ class Header extends React.Component {
       <Fragment>
         <ReactCSSTransitionGroup
           component="div"
-          className={cx("app-header", headerBackgroundColor, {
-            "header-shadow": enableHeaderShadow
+          className={cx('app-header', headerBackgroundColor, {
+            'header-shadow': enableHeaderShadow
           })}
           transitionName="HeaderAnimation"
           transitionAppear={true}
           transitionAppearTimeout={1500}
           transitionEnter={false}
-          transitionLeave={false}
-        >
+          transitionLeave={false}>
           <HeaderLogo />
 
           <div
-            className={cx("app-header__content", {
-              "header-mobile-open": enableMobileMenuSmall
-            })}
-          >
+            className={cx('app-header__content', {
+              'header-mobile-open': enableMobileMenuSmall
+            })}>
             <div className="app-header-right">
               <UserBox />
             </div>
@@ -46,6 +45,12 @@ class Header extends React.Component {
   }
 }
 
+Header.propTypes = {
+  headerBackgroundColor: PropTypes.string,
+  enableMobileMenuSmall: PropTypes.bool,
+  enableHeaderShadow: PropTypes.bool
+};
+
 const mapStateToProps = state => ({
   enableHeaderShadow: state.ThemeOptions.enableHeaderShadow,
   closedSmallerSidebar: state.ThemeOptions.closedSmallerSidebar,
@@ -53,7 +58,7 @@ const mapStateToProps = state => ({
   enableMobileMenuSmall: state.ThemeOptions.enableMobileMenuSmall
 });
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = () => ({});
 
 export default connect(
   mapStateToProps,
