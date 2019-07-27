@@ -1,405 +1,405 @@
 export const MainNav = [
   {
-    icon: "pe-7s-monitor",
-    label: "Dashboard",
-    to: "#/dashboards/crm"
+    icon: 'pe-7s-monitor',
+    label: 'Dashboard',
+    to: '#/dashboards/crm'
   },
   {
-    icon: "pe-7s-browser",
-    label: "Pages",
+    icon: 'pe-7s-browser',
+    label: 'Pages',
     content: [
       {
-        label: "Login",
-        to: "#/pages/login"
+        label: 'Login',
+        to: '#/pages/login'
       },
       {
-        label: "Login Boxed",
-        to: "#/pages/login-boxed"
+        label: 'Login Boxed',
+        to: '#/pages/login-boxed'
       },
       {
-        label: "Register",
-        to: "#/pages/register"
+        label: 'Register',
+        to: '#/pages/register'
       },
       {
-        label: "Register Boxed",
-        to: "#/pages/register-boxed"
+        label: 'Register Boxed',
+        to: '#/pages/register-boxed'
       },
       {
-        label: "Forgot Password",
-        to: "#/pages/forgot-password"
+        label: 'Forgot Password',
+        to: '#/pages/forgot-password'
       },
       {
-        label: "Forgot Password Boxed",
-        to: "#/pages/forgot-password-boxed"
+        label: 'Forgot Password Boxed',
+        to: '#/pages/forgot-password-boxed'
       }
     ]
   },
   {
-    icon: "pe-7s-plugin",
-    label: "Applications",
+    icon: 'pe-7s-plugin',
+    label: 'Applications',
     content: [
       {
-        label: "Mailbox",
-        to: "#/apps/mailbox"
+        label: 'Mailbox',
+        to: '#/apps/mailbox'
       },
       {
-        label: "Chat",
-        to: "#/apps/chat"
+        label: 'Chat',
+        to: '#/apps/chat'
       },
       {
-        label: "Split Layout",
-        to: "#/apps/split-layout"
+        label: 'Split Layout',
+        to: '#/apps/split-layout'
       },
       {
-        label: "FAQ Section",
-        to: "#/apps/faq-section"
+        label: 'FAQ Section',
+        to: '#/apps/faq-section'
       }
     ]
   }
 ];
 export const ComponentsNav = [
   {
-    icon: "pe-7s-diamond",
-    label: "Elements",
+    icon: 'pe-7s-diamond',
+    label: 'Elements',
     content: [
       {
-        label: "Buttons",
+        label: 'Buttons',
         content: [
           {
-            label: "Standard",
-            to: "#/elements/buttons-standard"
+            label: 'Standard',
+            to: '#/elements/buttons-standard'
           },
           {
-            label: "Pills",
-            to: "#/elements/buttons-pills"
+            label: 'Pills',
+            to: '#/elements/buttons-pills'
           },
           {
-            label: "Square",
-            to: "#/elements/buttons-square"
+            label: 'Square',
+            to: '#/elements/buttons-square'
           },
           {
-            label: "Shadow",
-            to: "#/elements/buttons-shadow"
+            label: 'Shadow',
+            to: '#/elements/buttons-shadow'
           },
           {
-            label: "With Icons",
-            to: "#/elements/buttons-icons"
+            label: 'With Icons',
+            to: '#/elements/buttons-icons'
           }
         ]
       },
       {
-        label: "Dropdowns",
-        to: "#/elements/dropdowns"
+        label: 'Dropdowns',
+        to: '#/elements/dropdowns'
       },
       {
-        label: "Icons",
-        to: "#/elements/icons"
+        label: 'Icons',
+        to: '#/elements/icons'
       },
       {
-        label: "Badges",
-        to: "#/elements/badges-labels"
+        label: 'Badges',
+        to: '#/elements/badges-labels'
       },
       {
-        label: "Cards",
-        to: "#/elements/cards"
+        label: 'Cards',
+        to: '#/elements/cards'
       },
       {
-        label: "Loading Indicators",
-        to: "#/elements/loaders"
+        label: 'Loading Indicators',
+        to: '#/elements/loaders'
       },
       {
-        label: "List Groups",
-        to: "#/elements/list-group"
+        label: 'List Groups',
+        to: '#/elements/list-group'
       },
       {
-        label: "Navigation Menus",
-        to: "#/elements/navigation"
+        label: 'Navigation Menus',
+        to: '#/elements/navigation'
       },
       {
-        label: "Timeline",
-        to: "#/elements/timelines"
+        label: 'Timeline',
+        to: '#/elements/timelines'
       },
       {
-        label: "Utilities",
-        to: "#/elements/utilities"
+        label: 'Utilities',
+        to: '#/elements/utilities'
       },
       {
-        label: "Visibility Sensor",
-        to: "#/elements/visibility-sensor"
+        label: 'Visibility Sensor',
+        to: '#/elements/visibility-sensor'
       }
     ]
   },
   {
-    icon: "pe-7s-car",
-    label: "Components",
+    icon: 'pe-7s-car',
+    label: 'Components',
     content: [
       {
-        label: "Tabs",
-        to: "#/components/tabs"
+        label: 'Tabs',
+        to: '#/components/tabs'
       },
       {
-        label: "Accordions",
-        to: "#/components/accordions"
+        label: 'Accordions',
+        to: '#/components/accordions'
       },
       {
-        label: "Notifications",
-        to: "#/components/notifications"
+        label: 'Notifications',
+        to: '#/components/notifications'
       },
       {
-        label: "Modals",
-        to: "#/components/modals"
+        label: 'Modals',
+        to: '#/components/modals'
       },
       {
-        label: "Loading Blockers",
-        to: "#/components/loading-blocks"
+        label: 'Loading Blockers',
+        to: '#/components/loading-blocks'
       },
       {
-        label: "Progress Bar",
-        to: "#/components/progress-bar"
+        label: 'Progress Bar',
+        to: '#/components/progress-bar'
       },
       {
-        label: "Tooltips & Popovers",
-        to: "#/components/tooltips-popovers"
+        label: 'Tooltips & Popovers',
+        to: '#/components/tooltips-popovers'
       },
       {
-        label: "Carousel",
-        to: "#/components/carousel"
+        label: 'Carousel',
+        to: '#/components/carousel'
       },
       {
-        label: "Calendar",
-        to: "#/components/calendar"
+        label: 'Calendar',
+        to: '#/components/calendar'
       },
       {
-        label: "Pagination",
-        to: "#/components/pagination"
+        label: 'Pagination',
+        to: '#/components/pagination'
       },
       {
-        label: "Count Up",
-        to: "#/components/count-up"
+        label: 'Count Up',
+        to: '#/components/count-up'
       },
       {
-        label: "Sticky Elements",
-        to: "#/components/sticky-elements"
+        label: 'Sticky Elements',
+        to: '#/components/sticky-elements'
       },
       {
-        label: "Scrollable",
-        to: "#/components/scrollable-elements"
+        label: 'Scrollable',
+        to: '#/components/scrollable-elements'
       },
       {
-        label: "Tree View",
-        to: "#/components/tree-view"
+        label: 'Tree View',
+        to: '#/components/tree-view'
       },
       {
-        label: "Maps",
-        to: "#/components/maps"
+        label: 'Maps',
+        to: '#/components/maps'
       },
       {
-        label: "Ratings",
-        to: "#/components/ratings"
+        label: 'Ratings',
+        to: '#/components/ratings'
       },
       {
-        label: "Image Crop",
-        to: "#/components/image-crop"
+        label: 'Image Crop',
+        to: '#/components/image-crop'
       },
       {
-        label: "Guided Tours",
-        to: "#/components/guided-tours"
+        label: 'Guided Tours',
+        to: '#/components/guided-tours'
       }
     ]
   },
   {
-    icon: "pe-7s-display2",
-    label: "Tables",
+    icon: 'pe-7s-display2',
+    label: 'Tables',
     content: [
       {
-        label: "Data Tables",
+        label: 'Data Tables',
         content: [
           {
-            label: "Basic",
-            to: "#/tables/data-tables"
+            label: 'Basic',
+            to: '#/tables/data-tables'
           },
           {
-            label: "Custom Components",
-            to: "#/tables/datatables-custom-components"
+            label: 'Custom Components',
+            to: '#/tables/datatables-custom-components'
           },
           {
-            label: "Fixed Header",
-            to: "#/tables/datatables-fixed-header"
+            label: 'Fixed Header',
+            to: '#/tables/datatables-fixed-header'
           },
           {
-            label: "Aggregation",
-            to: "#/tables/datatables-aggregation"
+            label: 'Aggregation',
+            to: '#/tables/datatables-aggregation'
           },
           {
-            label: "Editable Tables",
-            to: "#/tables/datatables-editable"
+            label: 'Editable Tables',
+            to: '#/tables/datatables-editable'
           }
         ]
       },
       {
-        label: "Regular Tables",
-        to: "#/tables/regular-tables"
+        label: 'Regular Tables',
+        to: '#/tables/regular-tables'
       },
       {
-        label: "Grid Tables",
-        to: "#/tables/grid-tables"
+        label: 'Grid Tables',
+        to: '#/tables/grid-tables'
       }
     ]
   }
 ];
 export const FormsNav = [
   {
-    icon: "pe-7s-light",
-    label: "Elements",
+    icon: 'pe-7s-light',
+    label: 'Elements',
     content: [
       {
-        label: "Controls",
-        to: "#/forms/controls"
+        label: 'Controls',
+        to: '#/forms/controls'
       },
       {
-        label: "Layouts",
-        to: "#/forms/layouts"
+        label: 'Layouts',
+        to: '#/forms/layouts'
       },
       {
-        label: "Validation",
-        to: "#/forms/validation"
+        label: 'Validation',
+        to: '#/forms/validation'
       },
       {
-        label: "Wizards",
+        label: 'Wizards',
         content: [
           {
-            label: "Variation 1",
-            to: "#/forms/wizard-1"
+            label: 'Variation 1',
+            to: '#/forms/wizard-1'
           },
           {
-            label: "Variation 2",
-            to: "#/forms/wizard-2"
+            label: 'Variation 2',
+            to: '#/forms/wizard-2'
           },
           {
-            label: "Variation 3",
-            to: "#/forms/wizard-3"
+            label: 'Variation 3',
+            to: '#/forms/wizard-3'
           }
         ]
       },
       {
-        label: "Sticky Form Headers",
-        to: "#/forms/sticky-headers"
+        label: 'Sticky Form Headers',
+        to: '#/forms/sticky-headers'
       }
     ]
   },
   {
-    icon: "pe-7s-joy",
-    label: "Widgets",
+    icon: 'pe-7s-joy',
+    label: 'Widgets',
     content: [
       {
-        label: "Datepicker",
-        to: "#/forms/datepicker"
+        label: 'Datepicker',
+        to: '#/forms/datepicker'
       },
       {
-        label: "Range Slider",
-        to: "#/forms/range-slider"
+        label: 'Range Slider',
+        to: '#/forms/range-slider'
       },
       {
-        label: "Input Selects",
-        to: "#/forms/input-selects"
+        label: 'Input Selects',
+        to: '#/forms/input-selects'
       },
       {
-        label: "Toggle Switch",
-        to: "#/forms/toggle-switch"
+        label: 'Toggle Switch',
+        to: '#/forms/toggle-switch'
       },
       {
-        label: "Dropdowns",
-        to: "#/forms/dropdown"
+        label: 'Dropdowns',
+        to: '#/forms/dropdown'
       },
       {
-        label: "WYSIWYG Editor",
-        to: "#/forms/wysiwyg-editor"
+        label: 'WYSIWYG Editor',
+        to: '#/forms/wysiwyg-editor'
       },
       {
-        label: "Input Mask",
-        to: "#/forms/input-mask"
+        label: 'Input Mask',
+        to: '#/forms/input-mask'
       },
       {
-        label: "Typeahead",
-        to: "#/forms/typeahead"
+        label: 'Typeahead',
+        to: '#/forms/typeahead'
       },
       {
-        label: "Clipboard",
-        to: "#/forms/clipboard"
+        label: 'Clipboard',
+        to: '#/forms/clipboard'
       },
       {
-        label: "Textarea Autosize",
-        to: "#/forms/textarea-autosize"
+        label: 'Textarea Autosize',
+        to: '#/forms/textarea-autosize'
       },
       {
-        label: "Number Spinners",
-        to: "#/forms/numberspinners"
+        label: 'Number Spinners',
+        to: '#/forms/numberspinners'
       },
       {
-        label: "Color Picker",
-        to: "#/forms/color-picker"
+        label: 'Color Picker',
+        to: '#/forms/color-picker'
       },
       {
-        label: "Dropzone",
-        to: "#/forms/dropzone"
+        label: 'Dropzone',
+        to: '#/forms/dropzone'
       }
     ]
   }
 ];
 export const WidgetsNav = [
   {
-    icon: "pe-7s-graph2",
-    label: "Chart Boxes",
+    icon: 'pe-7s-graph2',
+    label: 'Chart Boxes',
     content: [
       {
-        label: "Variation 1",
-        to: "#/widgets/chart-boxes"
+        label: 'Variation 1',
+        to: '#/widgets/chart-boxes'
       },
       {
-        label: "Variation 2",
-        to: "#/widgets/chart-boxes-2"
+        label: 'Variation 2',
+        to: '#/widgets/chart-boxes-2'
       },
       {
-        label: "Variation 3",
-        to: "#/widgets/chart-boxes-3"
+        label: 'Variation 3',
+        to: '#/widgets/chart-boxes-3'
       }
     ]
   },
   {
-    icon: "pe-7s-id",
-    label: "Profile Boxes",
-    to: "#/widgets/profile-boxes"
+    icon: 'pe-7s-id',
+    label: 'Profile Boxes',
+    to: '#/widgets/profile-boxes'
   },
   {
-    icon: "pe-7s-display1",
-    label: "Content Boxes",
-    to: "#/widgets/content-boxes"
+    icon: 'pe-7s-display1',
+    label: 'Content Boxes',
+    to: '#/widgets/content-boxes'
   }
 ];
 export const ChartsNav = [
   {
-    icon: "pe-7s-graph2",
-    label: "ChartJS",
-    to: "#/charts/chartjs"
+    icon: 'pe-7s-graph2',
+    label: 'ChartJS',
+    to: '#/charts/chartjs'
   },
   {
-    icon: "pe-7s-graph",
-    label: "Apex Charts",
-    to: "#/charts/apexcharts"
+    icon: 'pe-7s-graph',
+    label: 'Apex Charts',
+    to: '#/charts/apexcharts'
   },
   {
-    icon: "pe-7s-gleam",
-    label: "Gauges",
-    to: "#/charts/gauges"
+    icon: 'pe-7s-gleam',
+    label: 'Gauges',
+    to: '#/charts/gauges'
   },
   {
-    icon: "pe-7s-graph1",
-    label: "Chart Sparklines 1",
-    to: "#/charts/sparklines-1"
+    icon: 'pe-7s-graph1',
+    label: 'Chart Sparklines 1',
+    to: '#/charts/sparklines-1'
   },
   {
-    icon: "pe-7s-edit",
-    label: "Chart Sparklines 2",
-    to: "#/charts/sparklines-2"
+    icon: 'pe-7s-edit',
+    label: 'Chart Sparklines 2',
+    to: '#/charts/sparklines-2'
   }
 ];
